@@ -1,0 +1,281 @@
+/* Seção de Início */
+
+.inicioContainer {
+  padding: 3.125rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.inicioContainer img {
+  max-width: 100%;
+  width: 31.25rem;
+  height: auto;
+}
+
+.inicioText {
+  padding: 0.625rem;
+  cursor: default;
+}
+
+.inicioText h2 {
+  font-size: 2.5em;
+}
+
+.inicioText h1 {
+  font-size: 3.5em;
+}
+
+.inicioText button {
+  background: var(--cor2);
+  padding: 0.625rem 1.25rem;
+  font-size: 1.7em;
+  border: none;
+  border-radius: 0.3125rem;
+  cursor: pointer;
+}
+
+.inicioText button a {
+  text-decoration: none;
+  color: var(--cor0);
+}
+
+/* Mobile */
+
+@media (max-width: 720px) {
+  .inicioContainer {
+    margin-top: 1.5625rem;
+  }
+
+  .inicioContainer img {
+    margin-bottom: 0.625rem;
+  }
+
+  .inicioText h2 {
+    font-size: 1.5em;
+  }
+
+  .inicioText h1 {
+    font-size: 1.5em;
+    margin-bottom: 0.3125rem;
+  }
+
+  .inicioText button {
+    font-size: 1.4em;
+  }
+}
+
+@media (max-width: 300px) {
+  .inicioContainer {
+    font-size: 0.6em;
+    text-align: center;
+  }
+}
+
+/* Seção de Início */
+
+/* Seção de Serviços */
+
+.servicoContainer {
+  padding: 3.125rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+}
+
+.servicoContainer img {
+  max-width: 100%;
+  width: 31.25rem;
+  height: auto;
+}
+
+.servicoItens {
+  list-style: none;
+  font-size: 2.1em;
+  margin: 0.3125rem;
+  cursor: default;
+  font-weight: bold;
+}
+
+.servicoItens ion-icon {
+  margin-right: 0.125rem;
+  text-align: center;
+  color: var(--cor2);
+  font-size: 0.9em;
+}
+
+/* Mobile */
+
+@media (max-width: 720px) {
+  .servicoContainer img {
+    margin: 0%;
+    margin-bottom: 1.5625rem;
+  }
+
+  .servicoItens {
+    font-size: 1.5em;
+  }
+}
+
+@media (max-width: 300px) {
+  .servicoContainer {
+    font-size: 0.8em;
+  }
+}
+
+/* Seção de Serviços */
+
+/* Seção de Contato */
+
+.contatoContainer {
+  padding: 3.125rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contato {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contato h1 {
+  font-size: 2.3em;
+  margin-bottom: 1.25rem;
+  cursor: default;
+}
+
+.contato input {
+  border: none;
+  border-radius: 0.3125rem;
+  padding: 0.3125rem;
+  font-size: 1.5em;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 0.3125rem;
+  background: var(--cor3);
+  width: 17.1875rem;
+}
+
+.contato button {
+  background: var(--cor2);
+  color: var(--cor0);
+  border: none;
+  width: 17.1875rem;
+  font-size: 1.5em;
+  padding: 0.3125rem 0.625rem;
+  border-radius: 0.3125rem;
+  cursor: pointer;
+}
+
+/* Mobile */
+
+@media (max-width: 720px) {
+  .contatoContainer {
+    text-align: center;
+  }
+}
+
+@media (max-width: 300px) {
+  .contatoContainer {
+    font-size: 0.8em;
+  }
+}
+
+/* Seção de Contato */
+
+/* Seção de Relato de Clientes */
+
+.relatoClientes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 3.125rem;
+  cursor: default;
+}
+
+.clienteImg {
+  display: flex;
+  background: var(--cor3);
+  padding: 0.9375rem;
+  border-radius: 0.3125rem;
+  width: 35.625rem;
+}
+
+.cliente {
+  display: flex;
+  flex-direction: column;
+}
+
+.cliente p {
+  font-size: 1.5em;
+}
+
+.cliente h1 {
+  font-size: 1.8em;
+  margin: 0.3125rem 0rem 0.3125rem 0rem;
+}
+
+.cliente p {
+  font-size: 1.3em;
+}
+
+.relatoClientes img {
+  width: 6.875rem;
+  height: 6.875rem;
+  border-radius: 50%;
+  margin-right: 0.625rem;
+  margin-top: 0.9375rem;
+}
+
+/* Mobile */
+
+@media (max-width: 720px) {
+  .inicio-text {
+    text-align: center;
+  }
+
+  .clienteImg {
+    width: 35.625rem;
+  }
+
+  .clienteImg {
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    background: none;
+    border-radius: 0;
+  }
+
+  .clienteImg:last-child {
+    border-top: 0.0625rem solid var(--cor4);
+    margin-top: 0.625rem;
+  }
+
+  .cliente p {
+    margin-top: 0.625rem;
+  }
+}
+
+@media (max-width: 1339px) {
+  .clienteImg {
+    margin: 0 auto;
+  }
+
+  .clienteImg:last-child {
+    margin-top: 0.3125rem;
+  }
+}
+
+@media (max-width: 300px) {
+  .relatoClientes {
+    font-size: 0.8em;
+    padding: 0.625rem;
+  }
+}
+
+/* Seção de Relato de Clientes */
