@@ -19,7 +19,7 @@ export const Navbar = () => {
           <button>Conta</button>
           <ul className={dropdownMenu}>
             <li><Link to="/login">Entrar</Link></li>
-            <li><a href="html/cadastro.html">Cadastre-se</a></li>
+            <li><Link to="/cadastro">Cadastre-se</Link></li>
           </ul>
         </li>
       </ul>

@@ -14,18 +14,17 @@ export const About = () => {
 
   React.useEffect(() => {
     const authorName = document.getElementById("typeTitulo");
+    const typeWritter = (item) => {
+      const stringArray = item.innerHTML.split("");
+      item.innerHTML = "";
+      stringArray.forEach((letra, i) => {
+        setTimeout(() => {
+          item.innerHTML += letra;
+        }, 100 * i);
+      });
+    };
     typeWritter(authorName)
   }, []);
-
-  const typeWritter = (item) => {
-    const stringArray = item.innerHTML.split("");
-    item.innerHTML = "";
-    stringArray.forEach((letra, i) => {
-      setTimeout(() => {
-        item.innerHTML += letra;
-      }, 100 * i);
-    });
-  };
 
   return (
     <>
@@ -45,24 +44,24 @@ export const About = () => {
           <p>Foi quando recebeu uma oportunidade para atuar como cuidador na empresa Keep Home, sua carreira de fato começou. Atuou como cuidador por dois anos e três meses. Tempo que pôde perceber que a área da saúde também não era onde seu futuro o aguardava, sua maior dificuldade estava sendo o apego aos pacientes, e quando os mesmos vinham a óbito isso o abalava demais.</p>
           <p>Durente esses dois anos ele decidiu se matricular na faculdade, iniciando as aulas no dia 16 de agosto de 2021. Sempre com objtivo de conseguir seu primeiro estágio para ter seu primeiro contato com o dia-a-dia o mesmo fez tudo ao seu alcance durante os 6 primeiros meses, mas infelizmente não conseguira nada.</p>
           <p>Foi quando em fevereiro de 2022, buscando por profissionais da área para entrevistá-los e concluir um trabalho da faculdade, e já sem esperança ele conhece alguém que se empenhou a ajudá-lo aconseguir sua tão desejada vaga de estágio. Tendo iniciado seu estágio no dia 4 de abril de 2022 no Ministério Público do Estado do Rio de Janeiro, Nícolas hoje é mais um estudante com grandes expectitavas para o futuro e o coração cheio de alegria.</p>
+          <ul className={socialFoot}>
+            <li>
+              <a href="https://twitter.com/galdino_esmael" target="_blank" rel="noreferrer">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/nicolasgaldino" target="_blank" rel="noreferrer">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/nícolas-galdino-esmael-8370ab199" target="_blank" rel="noreferrer">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+          </ul>
         </div>
-        <ul className={socialFoot}>
-          <li>
-            <a href="https://twitter.com/galdino_esmael" target="_blank" rel="noreferrer">
-              <ion-icon name="logo-twitter"></ion-icon>
-            </a>
-          </li>
-          <li>
-            <a href="https://github.com/nicolasgaldino" target="_blank" rel="noreferrer">
-              <ion-icon name="logo-github"></ion-icon>
-            </a>
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/in/nícolas-galdino-esmael-8370ab199" target="_blank" rel="noreferrer">
-              <ion-icon name="logo-linkedin"></ion-icon>
-            </a>
-          </li>
-        </ul>
       </section>
     </>
   )
