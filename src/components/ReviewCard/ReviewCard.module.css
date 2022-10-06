@@ -1,0 +1,83 @@
+/* Seção de Relato de Clientes */
+
+.clienteImg {
+  display: flex;
+  background: var(--cor3);
+  padding: 0.9375rem;
+  border-radius: 0.3125rem;
+  width: 35.625rem;
+}
+
+.cliente {
+  display: flex;
+  flex-direction: column;
+}
+
+.cliente p {
+  font-size: 1.5em;
+}
+
+.cliente h1 {
+  font-size: 1.8em;
+  margin: 0.3125rem 0rem 0.3125rem 0rem;
+}
+
+.cliente p {
+  font-size: 1.3em;
+}
+
+.clientPicture {
+  width: 6.875rem;
+  height: 6.875rem;
+  border-radius: 50%;
+  margin-right: 0.625rem;
+  margin-top: 0.9375rem;
+}
+
+/* Mobile */
+
+@media (max-width: 720px) {
+  .inicio-text {
+    text-align: center;
+  }
+
+  .clienteImg {
+    width: 35.625rem;
+  }
+
+  .clienteImg {
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    background: none;
+    border-radius: 0;
+  }
+
+  .clienteImg:last-child {
+    border-top: 0.0625rem solid var(--cor4);
+    margin-top: 0.625rem;
+  }
+
+  .cliente p {
+    margin-top: 0.625rem;
+  }
+}
+
+@media (max-width: 1339px) {
+  .clienteImg {
+    margin: 0 auto;
+  }
+
+  .clienteImg:last-child {
+    margin-top: 0.3125rem;
+  }
+}
+
+@media (max-width: 300px) {
+  .relatoClientes {
+    font-size: 0.8em;
+    padding: 0.625rem;
+  }
+}
+
+/* Seção de Relato de Clientes */

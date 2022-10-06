@@ -14,7 +14,7 @@ export const App = () => {
     <BrowserRouter>
       <Navbar />
       <Routes>
-        <Route path="/" element={<HomePage />} />
+        <Route path="/code-page-React" element={<HomePage />} />
         <Route path="/orcamento" element={<Orcamento />} />
         <Route path="/about" element={<About />} />
         <Route path="/services" element={<ServicesPage />} />
