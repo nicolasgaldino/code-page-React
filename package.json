@@ -1,7 +1,7 @@
 {
   "name": "code-page-react-express",
   "version": "0.1.0",
-  "homepage": "https://nicolasgaldino.github.io/code-page-React/",
+  "homepage": "https://nicolasgaldino.github.io/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
