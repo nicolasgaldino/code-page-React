@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/code-page-React/static/css/main.f33f31a7.css",
-    "main.js": "/code-page-React/static/js/main.bc66e0e4.js",
+    "main.js": "/code-page-React/static/js/main.e319156f.js",
     "static/media/video_call.png": "/code-page-React/static/media/video_call.575a21cd57397a3036ad.png",
     "static/media/coding_.png": "/code-page-React/static/media/coding_.7726fecb6e8885ad5660.png",
     "static/media/team-work-desktop.jpg": "/code-page-React/static/media/team-work-desktop.2c2b4cdf7dd6cf80dd69.jpg",
@@ -12,10 +12,10 @@
     "static/media/annie-spratt-mobile.jpg": "/code-page-React/static/media/annie-spratt-mobile.b3eb1f927eb3804c3e02.jpg",
     "index.html": "/code-page-React/index.html",
     "main.f33f31a7.css.map": "/code-page-React/static/css/main.f33f31a7.css.map",
-    "main.bc66e0e4.js.map": "/code-page-React/static/js/main.bc66e0e4.js.map"
+    "main.e319156f.js.map": "/code-page-React/static/js/main.e319156f.js.map"
   },
   "entrypoints": [
     "static/css/main.f33f31a7.css",
-    "static/js/main.bc66e0e4.js"
+    "static/js/main.e319156f.js"
   ]
 }
