@@ -14,8 +14,6 @@ const {
   contatoContainer,
   contato,
   relatoClientes,
-  clienteImg,
-  cliente,
 } = styles;
 
 export const HomePage = () => {
