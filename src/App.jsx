@@ -1,7 +1,12 @@
-export default function App() {
+import React from 'react';
+import { Navbar } from './components/Navbar/Navbar';
+import { Footer } from './components/Footer/Footer';
+
+export const App = () => {
   return (
-    <>
-      <h1>Olá, mundo!!!</h1>
-    </>
-  );
+    <main>
+      <Navbar />
+      <Footer />
+    </main>
+  )
 }

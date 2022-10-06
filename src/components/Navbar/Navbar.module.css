@@ -1,0 +1,161 @@
+.navContainer {
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: 0.0313rem solid var(--cor4);
+  background: var(--cor0);
+}
+
+.navContainer h1 {
+  margin: 0 auto;
+  font-size: 3.5em;
+  cursor: default;
+}
+
+.navContainer span {
+  color: var(--cor4);
+}
+
+.navContainer a {
+  color: var(--cor2);
+  text-decoration: none;
+}
+
+.ulCont {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.ulCont li {
+  font-size: 1.5em;
+  list-style: none;
+  margin: 0rem 1.25rem 0rem 0rem;
+}
+
+.ulCont li a {
+  text-decoration: none;
+  color: var(--cor4);
+}
+
+.ulCont button {
+  color: var(--cor0);
+  background: var(--cor2);
+  font-size: 1.1em;
+  border: none;
+  padding: 0.3125rem 0.625rem;
+  border-radius: 0.3125rem;
+  cursor: pointer;
+}
+
+/* Mobile */
+
+@media (max-width: 720px) {
+  .navContainer h1 {
+    margin-top: 0.3125rem;
+  }
+
+  .ulCont li {
+    margin: 0.3125rem 0.3125rem 0.625rem 0.3125rem;
+    font-size: 1.3em;
+    font-weight: bold;
+  }
+
+  [data-dropdown] .dropdownMenu {
+    font-size: 1.3em;
+    width: 7.8125rem;
+  }
+}
+
+@media (max-width: 300px) {
+  .ulCont {
+    font-size: 0.9em;
+  }
+
+  [data-dropdown] .dropdownMenu {
+    font-size: 0.9em;
+    width: 5.3125rem;
+  }
+}
+
+/* Dropdown Menu */
+
+[data-dropdown] {
+  position: relative;
+}
+
+[data-dropdown] .dropdownMenu {
+  display: none;
+}
+
+[data-dropdown]:hover .dropdownMenu {
+  display: block;
+  animation: exibir 0.3s forwards;
+}
+
+[data-dropdown].ativo .dropdownMenu {
+  display: block;
+  animation: exibir 0.3s forwards;
+}
+
+@keyframes exibir {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 30px, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.dropdownMenu {
+  width: 150px;
+  position: absolute;
+  background: var(--cor2);
+  padding: 5px;
+  border: 2px solid var(--cor0);
+  border-radius: 5px;
+  z-index: 200;
+  top: 43px;
+}
+
+/*
+.dropdownMenu::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: -10px;
+  width: 0px;
+  height: 0px;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid var(--cor2);
+}
+*/
+
+.dropdownMenu li a:hover {
+  font-size: 0.6em;
+  transition: 0.1s;
+}
+
+.dropdownMenu li a {
+  color: var(--cor0);
+  font-size: 0.5em;
+}
+
+/* Mobile */
+
+@media (max-width: 720px) {
+  .dropdownMenu {
+    width: 8.125rem;
+    font-size: 1.4em;
+  }
+}
+
+@media (max-width: 360px) {
+  .dropdownMenu {
+    width: 6.875rem;
+    font-size: 1.1em;
+  }
+}
