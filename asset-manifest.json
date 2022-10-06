@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/code-page-React/static/css/main.12bd8a62.css",
-    "main.js": "/code-page-React/static/js/main.ccf6cbdf.js",
-    "static/media/video_call.png": "/code-page-React/static/media/video_call.575a21cd57397a3036ad.png",
-    "static/media/coding_.png": "/code-page-React/static/media/coding_.7726fecb6e8885ad5660.png",
-    "static/media/team-work-desktop.jpg": "/code-page-React/static/media/team-work-desktop.2c2b4cdf7dd6cf80dd69.jpg",
-    "static/media/profile.jpg": "/code-page-React/static/media/profile.486245e260bad90dc76f.jpg",
-    "static/media/annie-spratt-desktop.jpg": "/code-page-React/static/media/annie-spratt-desktop.fcd86304f2a4eb4efbae.jpg",
-    "static/media/profile2.jpg": "/code-page-React/static/media/profile2.7f0841b77d0c94646616.jpg",
-    "static/media/chris-ried-LfG7RwMM6g8-unsplash.jpg": "/code-page-React/static/media/chris-ried-LfG7RwMM6g8-unsplash.0f5d15868653a5e7a8f4.jpg",
-    "static/media/annie-spratt-mobile.jpg": "/code-page-React/static/media/annie-spratt-mobile.b3eb1f927eb3804c3e02.jpg",
-    "index.html": "/code-page-React/index.html",
-    "main.12bd8a62.css.map": "/code-page-React/static/css/main.12bd8a62.css.map",
-    "main.ccf6cbdf.js.map": "/code-page-React/static/js/main.ccf6cbdf.js.map"
+    "main.css": "/static/css/main.d25d5d51.css",
+    "main.js": "/static/js/main.7cfb6c19.js",
+    "static/media/video_call.png": "/static/media/video_call.575a21cd57397a3036ad.png",
+    "static/media/coding_.png": "/static/media/coding_.7726fecb6e8885ad5660.png",
+    "static/media/team-work-desktop.jpg": "/static/media/team-work-desktop.2c2b4cdf7dd6cf80dd69.jpg",
+    "static/media/profile.jpg": "/static/media/profile.486245e260bad90dc76f.jpg",
+    "static/media/annie-spratt-desktop.jpg": "/static/media/annie-spratt-desktop.fcd86304f2a4eb4efbae.jpg",
+    "static/media/profile2.jpg": "/static/media/profile2.7f0841b77d0c94646616.jpg",
+    "static/media/chris-ried-LfG7RwMM6g8-unsplash.jpg": "/static/media/chris-ried-LfG7RwMM6g8-unsplash.0f5d15868653a5e7a8f4.jpg",
+    "static/media/annie-spratt-mobile.jpg": "/static/media/annie-spratt-mobile.b3eb1f927eb3804c3e02.jpg",
+    "index.html": "/index.html",
+    "main.d25d5d51.css.map": "/static/css/main.d25d5d51.css.map",
+    "main.7cfb6c19.js.map": "/static/js/main.7cfb6c19.js.map"
   },
   "entrypoints": [
-    "static/css/main.12bd8a62.css",
-    "static/js/main.ccf6cbdf.js"
+    "static/css/main.d25d5d51.css",
+    "static/js/main.7cfb6c19.js"
   ]
 }
