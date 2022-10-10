@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/code-page-React/static/css/main.f33f31a7.css",
-    "main.js": "/code-page-React/static/js/main.e319156f.js",
+    "main.css": "/code-page-React/static/css/main.aa7678d1.css",
+    "main.js": "/code-page-React/static/js/main.d499f36d.js",
     "static/media/video_call.png": "/code-page-React/static/media/video_call.575a21cd57397a3036ad.png",
     "static/media/coding_.png": "/code-page-React/static/media/coding_.7726fecb6e8885ad5660.png",
     "static/media/team-work-desktop.jpg": "/code-page-React/static/media/team-work-desktop.2c2b4cdf7dd6cf80dd69.jpg",
@@ -11,11 +11,11 @@
     "static/media/chris-ried-LfG7RwMM6g8-unsplash.jpg": "/code-page-React/static/media/chris-ried-LfG7RwMM6g8-unsplash.0f5d15868653a5e7a8f4.jpg",
     "static/media/annie-spratt-mobile.jpg": "/code-page-React/static/media/annie-spratt-mobile.b3eb1f927eb3804c3e02.jpg",
     "index.html": "/code-page-React/index.html",
-    "main.f33f31a7.css.map": "/code-page-React/static/css/main.f33f31a7.css.map",
-    "main.e319156f.js.map": "/code-page-React/static/js/main.e319156f.js.map"
+    "main.aa7678d1.css.map": "/code-page-React/static/css/main.aa7678d1.css.map",
+    "main.d499f36d.js.map": "/code-page-React/static/js/main.d499f36d.js.map"
   },
   "entrypoints": [
-    "static/css/main.f33f31a7.css",
-    "static/js/main.e319156f.js"
+    "static/css/main.aa7678d1.css",
+    "static/js/main.d499f36d.js"
   ]
 }
