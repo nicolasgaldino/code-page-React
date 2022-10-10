@@ -2,7 +2,6 @@
 
 .clienteImg {
   display: flex;
-  background: var(--cor3);
   padding: 0.9375rem;
   border-radius: 0.3125rem;
   width: 35.625rem;
